@@ -64,15 +64,28 @@ main{
     background-color: #FFFFFF;
     width: 870px;
 }
+.top-players{
+    margin: 30px;
+}
 .section-1 h2{
     color: #562EFF;
     font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
 }
 .player img{
     width: 56px;
     height: 56px;
 }
-.player h2{
+.player p{
     font-size: 18px;
+    margin-left: 16px;
 }
+.player{
+    display: flex;
+}
+
 
